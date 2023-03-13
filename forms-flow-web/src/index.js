@@ -35,9 +35,9 @@ Formio.setBaseUrl(AppConfig.apiUrl);
 Components.setComponents(FormioCustomEx.components); // Sentiment Analysis
 //Components.setComponents(customNPMcomponents); // New custom components
 
+
 //CUSTOM COMPONENTS FROM PROJECT FOLDER:
 Components.setComponents(customComponents);
-
 
 
 // Set custom formio elements - Code splitted
