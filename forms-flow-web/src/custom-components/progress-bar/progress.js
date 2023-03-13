@@ -14,7 +14,7 @@ export default class progressBar extends ReactComponent {
         return {
             title: 'Progress Bar',
             icon: 'progress',
-            group: 'basic',
+            group: 'Custom',
             documentation: '', //TODO
             weight: 110,
             schema: progressBar.schema()

@@ -14,7 +14,7 @@ export default class GoogleMaps extends ReactComponent {
     return {
       title: 'Google Map',
       icon: 'map-marker',
-      group: 'custom',
+      group: 'Custom',
       documentation: '', //TODO
       weight: 110,
       schema: GoogleMaps.schema()

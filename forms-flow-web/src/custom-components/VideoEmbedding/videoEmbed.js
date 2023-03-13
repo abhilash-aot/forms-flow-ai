@@ -14,7 +14,7 @@ export default class VideoEmbed extends ReactComponent {
       return {
         title: 'Video Embedding',
         icon: 'upload',
-        group: 'basic',
+        group: 'Custom',
         documentation: '', //TODO
         weight: 110,
         schema: VideoEmbed.schema()
