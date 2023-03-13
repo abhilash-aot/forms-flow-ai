@@ -16,7 +16,7 @@ window["_env_"] = {
   REACT_APP_KEYCLOAK_URL:"<Keycloak URL>",
 
   ////Environment Variables for forms-flow-bpm////
-
+  REACT_APP_GOOGLE_MAP_URL:"googlemap api",
   //Insight Api End point
   //REACT_APP_INSIGHT_API_BASE: "Insight Api base end-point",
   //REACT_APP_INSIGHTS_API_KEY: "<API_KEY from REDASH>",
