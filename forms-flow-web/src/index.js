@@ -12,8 +12,9 @@ import "./resourceBundles/i18n.js";
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import { featureFlags } from "./featureToogle";
 import { FlagsProvider } from 'flagged';
-//import FormioCustomEx from "formsflow-formio-custom-elements/dist/customformio-ex";
+import FormioCustomEx from "formsflow-formio-custom-elements/dist/customformio-ex";
 import customComponents from "./custom-components/index";
+//import customNPMcomponents from "custom-components-formsflow/dist/customformioprogress";
 // disable react-dev-tools for this project
 if (typeof window.__REACT_DEVTOOLS_GLOBAL_HOOK__ === "object") {
   for (let [key, value] of Object.entries(
@@ -31,8 +32,8 @@ Formio.setProjectUrl(AppConfig.projectUrl);
 Formio.setBaseUrl(AppConfig.apiUrl);
 
 //CUSTOM COMPONENTS FROM NPM
-//Components.setComponents(FormioCustomEx.components); // Sentiment Analysis
-//Components.setComponents(FormioCustomEx.components); // New custom components
+Components.setComponents(FormioCustomEx.components); // Sentiment Analysis
+//Components.setComponents(customNPMcomponents); // New custom components
 
 //CUSTOM COMPONENTS FROM PROJECT FOLDER:
 Components.setComponents(customComponents);

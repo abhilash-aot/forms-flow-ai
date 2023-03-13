@@ -2,8 +2,10 @@ import React from 'react';
 import { withGoogleMap, GoogleMap, withScriptjs, InfoWindow, Marker } from "react-google-maps";
 import Geocode from "react-geocode";
 import Autocomplete from 'react-google-autocomplete';
+import { AppConfig } from '../../config';
 
-Geocode.setApiKey(process.env.REACT_APP_GOOGLE_MAP_URL);
+Geocode.setApiKey((AppConfig.googleMapApi)
+    || (process.env.REACT_APP_GOOGLE_MAP_URL));
 Geocode.enableDebug();
 
 export default class LocationSearchModal extends React.Component {
