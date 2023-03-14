@@ -361,6 +361,12 @@ const Create = React.memo(() => {
           options={{
             language: lang,
             i18n: formio_resourceBundles,
+            builder:{
+              Custom: {
+                title: 'Custom',
+                weight: 100,
+              }
+            }
           }}
         />
       </div>

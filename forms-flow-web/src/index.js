@@ -13,6 +13,8 @@ import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import { featureFlags } from "./featureToogle";
 import { FlagsProvider } from 'flagged';
 import FormioCustomEx from "formsflow-formio-custom-elements/dist/customformio-ex";
+import customComponents from "./custom-components/index";
+//import customNPMcomponents from "custom-components-formsflow/dist/customformioprogress";
 // disable react-dev-tools for this project
 if (typeof window.__REACT_DEVTOOLS_GLOBAL_HOOK__ === "object") {
   for (let [key, value] of Object.entries(
@@ -28,10 +30,17 @@ const history = StoreService.history;
 
 Formio.setProjectUrl(AppConfig.projectUrl);
 Formio.setBaseUrl(AppConfig.apiUrl);
-Components.setComponents(FormioCustomEx.components);
+
+//CUSTOM COMPONENTS FROM NPM
+Components.setComponents(FormioCustomEx.components); // Sentiment Analysis
+//Components.setComponents(customNPMcomponents); // New custom components
+
+
+//CUSTOM COMPONENTS FROM PROJECT FOLDER:
+Components.setComponents(customComponents);
+
+
 // Set custom formio elements - Code splitted
-
-
 ReactDOM.render(
   <FlagsProvider features={featureFlags}>
      <App {...{ store, history }} />

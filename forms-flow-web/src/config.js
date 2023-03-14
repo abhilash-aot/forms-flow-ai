@@ -6,6 +6,10 @@ let API_URL =
   (window._env_ && window._env_.REACT_APP_API_SERVER_URL) ||
   process.env.REACT_APP_API_SERVER_URL ||
   "http://127.0.0.1:3001";
+let GOOGLE_MAP_URL =
+  (window._env_ && window._env_.REACT_APP_GOOGLE_MAP_URL) ||
+  process.env.REACT_APP_GOOGLE_MAP_URL ||
+  "";
 
 let query = {};
 window.location.search
@@ -22,4 +26,5 @@ API_URL = query.apiUrl || API_URL;
 export const AppConfig = {
   projectUrl: PROJECT_URL,
   apiUrl: API_URL,
+  googleMapApi:GOOGLE_MAP_URL,
 };
