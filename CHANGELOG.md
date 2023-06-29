@@ -9,7 +9,7 @@ Mark  items as `Added`, `Changed`, `Fixed`, `Removed`, `Untested Features`, `Upc
 **forms-flow-web**
 
 * Added `Form bundling` feature.
-* Added RBAC(Role Based Access Control) support for designer.
+* Added RBAC(Role Based Access Control) support in form listing for designer and client.
 * Added admin module
 
 
@@ -21,7 +21,12 @@ Mark  items as `Added`, `Changed`, `Fixed`, `Removed`, `Untested Features`, `Upc
 
 **forms-flow-bpm**
 
-* Added RBAC(Role Based Access Control) support for designer.
+* Added RBAC(Role Based Access Control) support in form listing for designer and client.
+
+**forms-flow-webapi**
+
+* Added RBAC(Role Based Access Control) support in form listing for designer and client.
+
 
 `Modified`
 
