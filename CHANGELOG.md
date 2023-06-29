@@ -2,6 +2,48 @@
 
 Mark  items as `Added`, `Changed`, `Fixed`, `Removed`, `Untested Features`, `Upcoming Features`, `Known Issues`
 
+## 5.2.0 - 2023-06-30
+
+`Added`
+
+**forms-flow-web**
+
+* Added `Form bundling` feature.
+* Added RBAC(Role Based Access Control) support for designer.
+* Added admin module
+
+
+**forms-flow-web-root-config**
+
+* Added environment variables `MF_FORMSFLOW_WEB_URL`, `MF_FORMSFLOW_NAV_URL`, `MF_FORMSFLOW_SERVICE_URL`, `MF_FORMSFLOW_ADMIN_URL`, `MF_FORMSFLOW_THEME_URL` to get MicroFrontend Components Created.
+* Added environment variables `ENABLE_FORMS_MODULE`, `ENABLE_TASKS_MODULE`, `ENABLE_DASHBOARDS_MODULE`, `ENABLE_PROCESSES_MODULE`, `ENABLE_APPLICATIONS_MODULE` to disable a particular module in forms-flow-web.
+* Added environment variable `CUSTOM_THEME_URL` for providing theming configuration.
+
+**forms-flow-bpm**
+
+* Added RBAC(Role Based Access Control) support for designer.
+
+`Modified`
+
+* Application history is modified to Application status and Request status.
+
+
+`Fixed`
+
+**forms-flow-web**
+
+* Fixed resubmit issue in form adapter for custom submission.
+
+**forms-flow-bpm**
+
+* Task list variables not updated on re-submission by client issue fixed.
+
+`Removed`
+
+**forms-flow-web**
+
+* Removed environment variable `DOCUMENT_SERVICE_URL`.
+
 ## 5.1.1 - 2023-05-18
 
 `Added`
