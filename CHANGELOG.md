@@ -23,14 +23,22 @@ Mark  items as `Added`, `Changed`, `Fixed`, `Removed`, `Untested Features`, `Upc
 
 * Added RBAC(Role Based Access Control) support in form listing for designer and client.
 
-**forms-flow-webapi**
+**forms-flow-api**
 
 * Added RBAC(Role Based Access Control) support in form listing for designer and client.
 
 
 `Modified`
 
+**forms-flow-web**
+
 * Application history is modified to Application status and Request status.
+
+`forms-flow-api`
+
+*Upgrade notes:*
+
+* Flask upgraded from version 2.1.3 to 2.3.2.
 
 
 `Fixed`
