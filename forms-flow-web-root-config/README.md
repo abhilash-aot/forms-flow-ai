@@ -82,7 +82,7 @@ is mentioned on the [link](../forms-flow-idm/keycloak/README.md#create-forms-flo
   `MULTI_TENANCY_ENABLED`|Multi tenancy enabled flag for the environment| true/false | false   |
   `KEYCLOAK_ENABLE_CLIENT_AUTH`|Client auth mechanism|          |`false`
   `MT_ADMIN_BASE_URL`|Multitenancy admin url|          |`http://{your-ip-address}:5010/api`
-  `MT_ADMIN_BASE_URL_VERSION=v1`|Version of multitenancy admin| v1
+  `MT_ADMIN_BASE_URL_VERSION`|Version of multitenancy admin| v1
  `ENABLE_FORMS_MODULE`|To enable/disable forms module in forms-flow-web| true/false | true
   `ENABLE_TASKS_MODULE`|To enable/disable tasks module in forms-flow-web| true/false | true
   `ENABLE_DASHBOARDS_MODULE`|To enable/disable dashboards module in forms-flow-web| true/false | true
