@@ -20,9 +20,8 @@ This component helps to create a customised web application.
    - [Step 3 : Running the Application](#running-the-application)
    - [Step 4 : Health Check](#health-check)
 3. [How to Create Your First Form](#how-to-create-your-first-form)
-4. [Logo change](#logo-change)
-5. [Code coverage](#code-coverage)
-6. [Internationalization](#internationalization)
+4. [Code coverage](#code-coverage)
+5. [Internationalization](#internationalization)
 
 ## Prerequisites
 
@@ -100,11 +99,6 @@ is mentioned on the [link](../forms-flow-idm/keycloak/README.md#create-forms-flo
   * Navigate to menu **Forms**
   * Click the button **+ Create Form** to launch the form designer studio.
   * Design the form using **Drag and Drop** of components from LHS to RHS and publish by clicking the button **Create Form**.
-
-### Logo change
-  * Default Logo can be changed to the users logo by replacing the logo.svg in public folder of forms-flow-web.
-     The default width and height of the logo is 50 and 55 also the image format is svg
-  * The icon can also be replaced to the users icon by replacing the favicon in the public folder of forms-flow-web
 
 
 ### Code coverage
