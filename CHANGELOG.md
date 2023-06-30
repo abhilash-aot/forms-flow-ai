@@ -57,6 +57,11 @@ Mark  items as `Added`, `Changed`, `Fixed`, `Removed`, `Untested Features`, `Upc
 
 * Removed environment variable `DOCUMENT_SERVICE_URL`.
 
+`Generic Changes`
+
+* forms-flow-web is replaced by forms-flow-web-root-config as the deafult web application, for the setup refer [here](./forms-flow-web-root-config)
+
+
 ## 5.1.1 - 2023-05-18
 
 `Added`
