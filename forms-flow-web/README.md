@@ -10,6 +10,8 @@ Also **formsflow.ai** provides a Vue.js based web user interface for easy integr
 [formsflow-ai-extension repository](https://github.com/AOT-Technologies/forms-flow-ai-extensions/tree/master/camunda-formio-tasklist-vue), which can be easily intergrated
 with your project by installing our [npm package](https://www.npmjs.com/package/camunda-formio-tasklist-vue).
 
+This component helps to create a customised web application.
+
 ## Table of Content
 1. [Prerequisites](#prerequisites)
 2. [Solution Setup](#solution-setup)
@@ -40,6 +42,7 @@ is mentioned on the [link](../forms-flow-idm/keycloak/README.md#create-forms-flo
 ### Installation
 
    * Make sure you have a Docker machine up and running.
+   * Follow the steps mentioned [here](../forms-flow-web-root-config/README.md#installation)
    * Make sure your current working directory is "forms-flow-ai/forms-flow-web".
    * *Skip this if forms-flow-analytics setup is completed* - Start the **analytics server** by following the instructions given on  [readme](../forms-flow-analytics/README.md)
    * Rename the file [sample.env](./sample.env) to **.env**.
