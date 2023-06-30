@@ -24,7 +24,7 @@ with your project by installing our [npm package](https://www.npmjs.com/package/
 3. [How to Create Your First Form](#how-to-create-your-first-form)
 4. [Logo change](#logo-change)
 5. [Integrate micro front-end modules into host applications](#integrate-micro-front-end-modules-into-host-applications)
-6. [Additional reference](#additional_reference)
+6. [Additional reference](#additional-reference)
 
 ## Prerequisites
 
